@@ -1,0 +1,23 @@
+{
+    "name": "phpaudit/phpaudit",
+    "description": "PHPAudit",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zerofairnight",
+            "email": "zerofairnight@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPAudit\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
